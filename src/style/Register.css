@@ -1,0 +1,42 @@
+.register-form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    gap: 20px;
+}
+
+.title-container{
+    margin-bottom: 30px;
+}
+
+.form{
+    width: 90%;
+}
+
+.label-col{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.label-input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-button{
+    margin-top: 15px;
+}
+
+@media (max-width: 576px){
+    .container{
+        width: 90%;
+    }
+    .register-form{
+        width: 100%;
+    }
+}

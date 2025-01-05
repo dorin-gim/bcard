@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.main-container{
+    font-family: "Saira Semi Condensed", sans-serif;
+    width: 100%;    
+    height: 100vh;
+    display: flex;
+  flex-direction: column;
+}
+
+.title-container h2{
+    font-weight: 900;
+    font-family: "Saira Semi Condensed", sans-serif;
+    color: #4DA1A9;
+    font-size: 4rem;
+    margin: 20px;
+}
+
+.title-container h5{
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-family: "Saira Semi Condensed", sans-serif;
+    
+}
+
+.add-card-button{
+    width: 260px;   
+    height: 50px;
+    margin-bottom: 80px;
+    border-radius: 5px;
+}
+
+.footer-container{
+    position: fixed;
+    bottom: 0;
+    margin-top: 150px;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4DA1A9;
+    color: #F6F4F0;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.footer-logo-img{
+    width: 8%;
+}
+
+.about-us{
+    width: 32%;
+    font-size: 18px;
+    font-weight: 200;
+    margin: 40px auto;
+    line-height: 2;
+    text-align: left;
+}
+
+span{
+    font-weight: 500;
+}
+
+.fa-circle-info{
+    font-size: 26px;
+    margin-right: 10px;
+}
+
+.end-container{
+    font-size: 24px;
+    margin-bottom: 80px;
+font-weight: 600;}
+
+@media (max-width: 576px){
+    .about-us{
+        width: 80%;
+    }
+}

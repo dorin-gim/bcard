@@ -1,0 +1,97 @@
+.business-main-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.business-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 45%;
+  text-align: left;
+}
+
+.business-img img{
+  width: 100%;
+  height: 570px;
+  object-fit: cover;
+}
+
+.business-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 45%;
+}
+
+.business-map{
+  width: 100%;
+  height: 90%;
+}
+
+.business-contact-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.business-contact-info {
+display: flex;
+flex-direction: row;
+width: 100%;
+}
+
+.business-address{
+    width: 88%;
+    text-align: left;
+}
+
+.business-contact-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 12%;
+    font-size: 24px;
+}
+@media (max-width: 576px){
+    .business-main-info{
+        flex-direction: column;
+    } 
+    .business-details{
+        width: 100%;
+    }
+    .business-img img{
+        height: 250px;
+    }
+    .business-description{
+        width: 90%;
+        text-align: center;
+        margin: 20px auto;
+    }
+    .business-info{
+        width: 100%;
+    }
+    .business-contact-info{
+        width: 100%;
+        margin-bottom: 80px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .business-address{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .business-contact-icons{
+        width: 20%;
+    }
+    .business-map{
+        height: 250px;
+        margin-bottom: 30px;
+    }
+}
+

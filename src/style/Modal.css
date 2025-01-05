@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+#modal-title{
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 2.5rem; 
+  font-weight: 700;
+  margin-bottom: 10px;
+  
+}
+
+.modal-container {
+  font-family: "Saira Semi Condensed", sans-serif;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
